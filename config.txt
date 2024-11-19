@@ -1,0 +1,31 @@
+cra = untuk project gede 
+vite = 
+
+component, state, props
+
+npm init
+npm create vite@latest
+npm install tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+npm i react-router-dom
+
+//nama function react uppercase
+//nama function js camelcase
+------------------------------
+struktur file react .jsx
+function abc(){}
+export abc
+------------------------------
+function sebagai props tanpa argument: 
+onClick = {handleClick}
+
+function sebagai props tapi punya argument:
+onClick = {() => handleClick("arg1")}
+------------------------------
+
+
+
+?????
+APA ITU ARROW function
+
+

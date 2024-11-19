@@ -1,0 +1,137 @@
+.navbar {
+  background-color: red;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #ecf0f1;
+  margin: 0;
+  font-size: 24px;
+}
+
+.navList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.navItem {
+  margin: 0;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #ecf0f1;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: #3498db;
+}
+
+.navbar {
+  background-color: #34495e; /* Deep blue-gray */
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px; /* Rounded edges for a modern look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.title {
+  color: #ecf0f1; /* Light gray for contrast */
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px; /* Spacing between nav items */
+}
+
+.navItem {
+  margin: 0;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #ecf0f1;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.navLink:hover {
+  background-color: #1abc9c; /* Bright teal for hover effect */
+  color: #ffffff; /* Ensure good contrast */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for List Not Exist fallback */
+h1 {
+  color: white; /* Red to indicate absence */
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Modal Overlay - background behind the modal */
+
+.overlay {
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  position: relative;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.closeButton:hover {
+  color: #e74c3c;
+}
+
+.content {
+  font-size: 16px;
+  color: #333;
+}
